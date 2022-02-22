@@ -1,5 +1,5 @@
 <h2><%= @task.title %></h2>
-<p><%= @task.details %></p>
+<h3><%= @task.details %></h3>
 <%= link_to "Delete #{@task.title}",
             task_path(@task),
             method: :delete,
